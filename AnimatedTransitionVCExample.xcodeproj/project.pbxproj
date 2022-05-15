@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AC01C4212831453C00C1DA31 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01C4202831453C00C1DA31 /* LastViewController.swift */; };
+		AC01C4252831499500C1DA31 /* CustomTransitionsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01C4242831499500C1DA31 /* CustomTransitionsDelegate.swift */; };
+		AC01C42728314AE500C1DA31 /* CustomTransitionsAnimates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01C42628314AE500C1DA31 /* CustomTransitionsAnimates.swift */; };
 		ACD47F7E28313956004DADA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F7D28313956004DADA3 /* AppDelegate.swift */; };
 		ACD47F8028313956004DADA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F7F28313956004DADA3 /* SceneDelegate.swift */; };
 		ACD47F8228313956004DADA3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47F8128313956004DADA3 /* FirstViewController.swift */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		AC01C4202831453C00C1DA31 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
+		AC01C4242831499500C1DA31 /* CustomTransitionsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsDelegate.swift; sourceTree = "<group>"; };
+		AC01C42628314AE500C1DA31 /* CustomTransitionsAnimates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsAnimates.swift; sourceTree = "<group>"; };
 		ACD47F7A28313956004DADA3 /* AnimatedTransitionVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTransitionVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD47F7D28313956004DADA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD47F7F28313956004DADA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 			children = (
 				ACD47F8128313956004DADA3 /* FirstViewController.swift */,
 				AC01C4202831453C00C1DA31 /* LastViewController.swift */,
+				AC01C4242831499500C1DA31 /* CustomTransitionsDelegate.swift */,
+				AC01C42628314AE500C1DA31 /* CustomTransitionsAnimates.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 				ACD47F8228313956004DADA3 /* FirstViewController.swift in Sources */,
 				ACD47F7E28313956004DADA3 /* AppDelegate.swift in Sources */,
 				AC01C4212831453C00C1DA31 /* LastViewController.swift in Sources */,
+				AC01C4252831499500C1DA31 /* CustomTransitionsDelegate.swift in Sources */,
 				ACD47F8028313956004DADA3 /* SceneDelegate.swift in Sources */,
+				AC01C42728314AE500C1DA31 /* CustomTransitionsAnimates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

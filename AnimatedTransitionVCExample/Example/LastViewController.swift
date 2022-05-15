@@ -8,6 +8,10 @@
 import UIKit
 
 class LastViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    var customTransitionsDelegate = CustomTransitionsDelegate()
 
     // MARK: - Live cycle
     
@@ -46,6 +50,9 @@ class LastViewController: UIViewController {
     // MARK: - Setup actions
     
     @objc fileprivate func actionButton(_ sender: UIButton) {
-        self.dismiss(animated: true)
+        
+            let firstViewController = FirstViewController()
+            firstViewController.modalPresentationStyle = .fullScreen
+            self.present(firstViewController, animated: true)
     }
 }

@@ -48,6 +48,7 @@ class FirstViewController: UIViewController {
     @objc fileprivate func actionButton(_ sender: UIButton) {
         let lastViewController = LastViewController()
         lastViewController.modalPresentationStyle = .fullScreen
+        lastViewController.transitioningDelegate = lastViewController.customTransitionsDelegate
         self.present(lastViewController, animated: true)
     }
 }
